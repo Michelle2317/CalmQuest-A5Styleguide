@@ -1,5 +1,4 @@
 * {
-	font-family: 'Nunito', sans-serif;
 	margin-top: 0;
 	margin-bottom: 2rem;
 	margin-right: 0;
@@ -7,6 +6,7 @@
 }
 
 .navbar {
+	font-family: 'Nunito', sans-serif;
 	position: sticky;
 	top: 0;
 	z-index: 1000;
@@ -59,11 +59,17 @@
 }
 
 .heading {
+	font-family: 'Nunito', sans-serif;
 	padding-left: 2rem;
 }
 
 .body-padding {
+	font-family: 'Nunito', sans-serif;
 	margin: 2rem;
+}
+
+p {
+	font-family: 'Nunito', sans-serif;
 }
 
 hr {
@@ -115,6 +121,13 @@ hr {
 	margin-top: 0.5rem;
 }
 
+.favicon2 {
+	padding-bottom: 1rem;
+}
+
+.favicon3 {
+	padding-bottom: 2rem;
+}
 .color-container {
 	display: flex;
 	justify-content: center;
@@ -155,4 +168,105 @@ hr {
 	padding-left: 2rem;
 	width: 22rem;
 	height: 22rem;
+}
+
+.Nunito {
+	font-family: 'Nunito', sans-serif;
+}
+
+.Merriweather {
+	font-family: 'Merriweather', serif;
+}
+
+.Typography > div {
+	margin-bottom: 20px;
+	word-wrap: break-word;
+}
+
+.SansSerifNunito {
+	font-family: 'Nunito', sans-serif;
+	font-size: 23px;
+}
+
+.SerifMerriweather {
+	font-family: 'Merriweather', serif;
+	font-size: 23px;
+}
+
+.HeadingOne36px {
+	font-size: 36px;
+}
+
+.HeadingTwo32px {
+	font-size: 32px;
+}
+
+.HeadingThree28px {
+	font-size: 28px;
+}
+
+.HeadingFour24px {
+	font-size: 24px;
+}
+
+.HeadingFive20px {
+	font-size: 20px;
+}
+
+.HeadingSix18px {
+	font-size: 18px;
+}
+
+.BodyBold16px {
+	font-weight: bold;
+	font-size: 16px;
+}
+
+.BodyRegular16px {
+	font-size: 16px;
+}
+
+.BodyLight16px {
+	font-weight: lighter;
+	font-size: 16px;
+}
+
+.Button18px {
+	font-size: 18px;
+}
+
+.Button16px {
+	font-size: 16px;
+}
+
+.Button14px {
+	font-size: 14px;
+}
+
+.Light20px {
+	font-weight: lighter;
+	font-size: 20px;
+}
+
+.Medium20px {
+	font-weight: normal;
+	font-size: 20px;
+}
+
+.Regular20px {
+	font-size: 20px;
+}
+
+.Bold20px {
+	font-weight: bold;
+	font-size: 20px;
+}
+
+.typography-container {
+	display: flex;
+	padding-left: 18rem;
+}
+
+.typography-column {
+	flex: 1;
 }
