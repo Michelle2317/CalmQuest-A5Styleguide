@@ -149,3 +149,10 @@ hr {
 .color-info p {
 	margin: 5px 0;
 }
+
+.examples {
+	margin-top: -2rem;
+	padding-left: 2rem;
+	width: 22rem;
+	height: 22rem;
+}
