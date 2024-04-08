@@ -1,9 +1,5 @@
 * {
 	font-family: 'Nunito', sans-serif;
-	margin-top: 0;
-	margin-bottom: 2rem;
-	margin-right: 0;
-	margin-left: 0;
 }
 
 .navbar {
@@ -16,6 +12,7 @@
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	
 }
 
 .navbar ul {
@@ -71,7 +68,6 @@
 
 hr {
 	width: 96%;
-	margin-left: 2rem;
 }
 
 .logo-variation {

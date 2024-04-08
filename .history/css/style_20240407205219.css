@@ -2,8 +2,6 @@
 	font-family: 'Nunito', sans-serif;
 	margin-top: 0;
 	margin-bottom: 2rem;
-	margin-right: 0;
-	margin-left: 0;
 }
 
 .navbar {
@@ -71,7 +69,6 @@
 
 hr {
 	width: 96%;
-	margin-left: 2rem;
 }
 
 .logo-variation {

@@ -1,15 +1,8 @@
 * {
 	font-family: 'Nunito', sans-serif;
-	margin-top: 0;
-	margin-bottom: 2rem;
-	margin-right: 0;
-	margin-left: 0;
 }
 
 .navbar {
-	position: sticky;
-	top: 0;
-	z-index: 1000;
 	overflow: hidden;
 	background-color: #c9f5ff;
 	height: 3rem;
@@ -37,6 +30,13 @@
 .navbar ul li a:hover {
 	background-color: #ececec;
 	font-weight: bold;
+}
+
+.sticky {
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: 1000;
 }
 
 #logo {
@@ -71,7 +71,6 @@
 
 hr {
 	width: 96%;
-	margin-left: 2rem;
 }
 
 .logo-variation {
