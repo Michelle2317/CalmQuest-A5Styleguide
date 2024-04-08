@@ -79,9 +79,7 @@ hr {
 	justify-content: center;
 }
 
-.logo-item {
-	text-align: center;
-}
+
 
 .logo-item p {
 	margin-top: 0.5rem;
@@ -106,13 +104,9 @@ hr {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	flex-direction: column;
 }
 
-.favicon-item {
-	text-align: center;
-	margin: 0 1rem;
-}
-
-.favicon-item p {
-	margin-top: 0.5rem;
+.favicon-group img {
+	margin: 0.5rem;
 }

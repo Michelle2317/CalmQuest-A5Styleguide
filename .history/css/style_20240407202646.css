@@ -72,47 +72,46 @@
 hr {
 	width: 96%;
 }
-
 .logo-variation {
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: center;
-}
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
 
-.logo-item {
-	text-align: center;
-}
+    .logo-item {
+        text-align: center;
+        margin: 10px;
+        flex: 1;
+    }
 
-.logo-item p {
-	margin-top: 0.5rem;
-}
+    .logo-item p {
+        margin-top: 5px;
+    }
 
-.logo-item img {
-	display: block;
-	margin: 0 auto;
-}
+    .logo-item img {
+        display: block;
+        margin: 0 auto;
+        max-width: 100px; /* Adjust as needed */
+    }
 
-.logo-group {
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: center;
-}
+    .logo-group {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
 
-.logo-group .logo-item {
-	margin: 2rem;
-}
+    .logo-group .logo-item {
+        flex-basis: calc(33.33% - 20px);
+        margin: 10px;
+    }
 
-.favicon-group {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-}
+    .favicon-group {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 
-.favicon-item {
-	text-align: center;
-	margin: 0 1rem;
-}
-
-.favicon-item p {
-	margin-top: 0.5rem;
-}
+    .favicon-group img {
+        margin: 10px;
+        max-width: 100px; /* Adjust as needed */
+    }

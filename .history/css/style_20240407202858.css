@@ -81,10 +81,12 @@ hr {
 
 .logo-item {
 	text-align: center;
+	margin: 0.625rem;
+	flex: 1;
 }
 
 .logo-item p {
-	margin-top: 0.5rem;
+	margin-top: 5px;
 }
 
 .logo-item img {
@@ -99,7 +101,8 @@ hr {
 }
 
 .logo-group .logo-item {
-	margin: 2rem;
+	flex-basis: calc(33.33% - 20px);
+	margin: 10px;
 }
 
 .favicon-group {
@@ -108,11 +111,6 @@ hr {
 	align-items: center;
 }
 
-.favicon-item {
-	text-align: center;
-	margin: 0 1rem;
-}
-
-.favicon-item p {
-	margin-top: 0.5rem;
+.favicon-group img {
+	margin: 10px;
 }

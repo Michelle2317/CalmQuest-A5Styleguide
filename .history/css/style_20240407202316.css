@@ -72,47 +72,26 @@
 hr {
 	width: 96%;
 }
-
 .logo-variation {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
 }
 
-.logo-item {
-	text-align: center;
-}
-
-.logo-item p {
-	margin-top: 0.5rem;
-}
-
-.logo-item img {
-	display: block;
-	margin: 0 auto;
-}
-
-.logo-group {
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: center;
-}
-
-.logo-group .logo-item {
-	margin: 2rem;
-}
-
-.favicon-group {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-}
-
+.logo-item,
 .favicon-item {
 	text-align: center;
-	margin: 0 1rem;
+	margin: 10px;
 }
 
+.logo-item p,
 .favicon-item p {
-	margin-top: 0.5rem;
+	margin-top: 5px;
+}
+
+.logo-item img,
+.favicon-item img {
+	display: block;
+	margin: 0 auto;
+	max-width: 100px; /* Adjust as needed */
 }

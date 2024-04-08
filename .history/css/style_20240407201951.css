@@ -74,45 +74,20 @@ hr {
 }
 
 .logo-variation {
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: center;
-}
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
+        justify-content: center;
+    }
 
-.logo-item {
-	text-align: center;
-}
+    .logo-variation h2,
+    .logo-variation p {
+        text-align: center;
+    }
 
-.logo-item p {
-	margin-top: 0.5rem;
-}
-
-.logo-item img {
-	display: block;
-	margin: 0 auto;
-}
-
-.logo-group {
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: center;
-}
-
-.logo-group .logo-item {
-	margin: 2rem;
-}
-
-.favicon-group {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-}
-
-.favicon-item {
-	text-align: center;
-	margin: 0 1rem;
-}
-
-.favicon-item p {
-	margin-top: 0.5rem;
-}
+    .logo-variation img {
+        display: block;
+        margin: 0 auto;
+        width: 100%;
+        max-width: 200px; /* Adjust as needed */
+    }

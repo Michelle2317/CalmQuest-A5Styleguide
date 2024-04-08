@@ -51,6 +51,10 @@
 	font-weight: bold;
 }
 
+.references-title {
+	padding-left: 2rem;
+}
+
 .references {
 	border: #000 0.1rem solid;
 	width: fit-content;
@@ -58,61 +62,10 @@
 	margin-left: 2rem;
 }
 
-.logo-title,
-.design-title,
-.references-title {
+.logo-title, .design-title {
 	padding-left: 2rem;
 }
 
-.logo-rationale,
-.logo-variation {
-	margin: 2rem;
-}
-
-hr {
-	width: 96%;
-}
-
-.logo-variation {
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: center;
-}
-
-.logo-item {
-	text-align: center;
-}
-
-.logo-item p {
-	margin-top: 0.5rem;
-}
-
-.logo-item img {
-	display: block;
-	margin: 0 auto;
-}
-
-.logo-group {
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: center;
-}
-
-.logo-group .logo-item {
-	margin: 2rem;
-}
-
-.favicon-group {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-}
-
-.favicon-item {
-	text-align: center;
-	margin: 0 1rem;
-}
-
-.favicon-item p {
-	margin-top: 0.5rem;
+.design-title {
+	padding-left: 2rem;
 }
