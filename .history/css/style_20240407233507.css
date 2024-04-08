@@ -1,0 +1,285 @@
+* {
+	margin-top: 0;
+	margin-bottom: 2rem;
+	margin-right: 0;
+	margin-left: 0;
+}
+
+.navbar {
+	font-family: 'Nunito', sans-serif;
+	position: sticky;
+	top: 0;
+	z-index: 1000;
+	overflow: hidden;
+	background-color: #c9f5ff;
+	height: 3rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.navbar ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+.navbar ul li {
+	display: inline;
+}
+
+.navbar ul li a {
+	color: #000;
+	text-decoration: none;
+	padding: 2rem 2rem;
+}
+
+.navbar ul li a:hover {
+	background-color: #ececec;
+	font-weight: bold;
+}
+
+#logo {
+	font-weight: bold;
+	
+}
+
+#design {
+	font-weight: bold;
+}
+
+#references {
+	font-weight: bold;
+}
+
+.references {
+	border: #000 0.1rem solid;
+	width: fit-content;
+	padding: 1rem;
+	margin-left: 2rem;
+}
+
+.heading {
+	font-family: 'Nunito', sans-serif;
+	padding-left: 2rem;
+}
+
+.body-padding {
+	font-family: 'Nunito', sans-serif;
+	margin: 2rem;
+}
+
+p {
+	font-family: 'Nunito', sans-serif;
+}
+
+hr {
+	width: 95%;
+	margin-left: 2rem;
+}
+
+.logo-variation {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.logo-item {
+	text-align: center;
+}
+
+.logo-item p {
+	margin-top: 0.5rem;
+}
+
+.logo-item img {
+	display: block;
+	margin: 0 auto;
+}
+
+.logo-group {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.logo-group .logo-item {
+	margin: 2rem;
+}
+
+.favicon-group {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.favicon-item {
+	text-align: center;
+	margin: 0 1rem;
+}
+
+.favicon-item p {
+	margin-top: 0.5rem;
+}
+
+.favicon2 {
+	padding-bottom: 1rem;
+}
+
+.favicon3 {
+	padding-bottom: 2rem;
+}
+.color-container {
+	display: flex;
+	justify-content: center;
+}
+
+.color-column {
+	flex: 1;
+	max-width: 16rem;
+	margin: 0 1rem;
+}
+
+.color-group {
+	display: flex;
+	align-items: center;
+	margin-bottom: 20px;
+}
+
+.color-box {
+	width: 50px;
+	height: 50px;
+	margin-right: 20px;
+}
+
+.color-info {
+	text-align: left;
+}
+
+.color-info h3 {
+	margin: 0;
+}
+
+.color-info p {
+	margin: 5px 0;
+}
+
+.examples {
+	margin-top: -2rem;
+	padding-left: 2rem;
+	width: 23.8rem;
+	height: 22rem;
+}
+
+.buttons-access {
+	margin-top: -5rem;
+	padding-left: 2rem;
+	width: 28rem;
+	height: 22rem;
+	margin-bottom: -2rem;
+}
+
+.Nunito {
+	font-family: 'Nunito', sans-serif;
+}
+
+.Merriweather {
+	font-family: 'Merriweather', serif;
+}
+
+.Typography > div {
+	margin-bottom: 20px;
+	word-wrap: break-word;
+}
+
+.SansSerifNunito {
+	font-family: 'Nunito', sans-serif;
+	font-size: 23px;
+}
+
+.SerifMerriweather {
+	font-family: 'Merriweather', serif;
+	font-size: 23px;
+}
+
+.HeadingOne36px {
+	font-size: 36px;
+}
+
+.HeadingTwo32px {
+	font-size: 32px;
+}
+
+.HeadingThree28px {
+	font-size: 28px;
+}
+
+.HeadingFour24px {
+	font-size: 24px;
+}
+
+.HeadingFive20px {
+	font-size: 20px;
+}
+
+.HeadingSix18px {
+	font-size: 18px;
+}
+
+.BodyBold16px {
+	font-weight: bold;
+	font-size: 16px;
+}
+
+.BodyRegular16px {
+	font-size: 16px;
+}
+
+.BodyLight16px {
+	font-weight: lighter;
+	font-size: 16px;
+}
+
+.Button18px {
+	font-size: 18px;
+}
+
+.Button16px {
+	font-size: 16px;
+}
+
+.Button14px {
+	font-size: 14px;
+}
+
+.Light20px {
+	font-weight: lighter;
+	font-size: 20px;
+}
+
+.Medium20px {
+	font-weight: normal;
+	font-size: 20px;
+}
+
+.Regular20px {
+	font-size: 20px;
+}
+
+.Bold20px {
+	font-weight: bold;
+	font-size: 20px;
+}
+
+.typography-container {
+	display: flex;
+	padding-left: 18rem;
+}
+
+.typography-column {
+	flex: 1;
+}
+
+.graphics-icons-container {
+	display: flex;
+}
