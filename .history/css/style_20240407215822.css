@@ -1,8 +1,9 @@
 * {
 	font-family: 'Nunito', sans-serif;
 	margin-top: 0;
-	margin-left: 2rem;
 	margin-bottom: 2rem;
+	margin-right: 0;
+	margin-left: 0;
 }
 
 .navbar {
@@ -57,19 +58,17 @@
 	margin-left: 2rem;
 }
 
-.logo-title,
-.design-title,
-.references-title {
+.heading {
 	padding-left: 2rem;
 }
 
-.logo-rationale,
-.logo-variation {
+.body-padding {
 	margin: 2rem;
 }
 
 hr {
 	width: 96%;
+	margin-left: 2rem;
 }
 
 .logo-variation {
@@ -114,4 +113,39 @@ hr {
 
 .favicon-item p {
 	margin-top: 0.5rem;
+}
+
+.color-container {
+	display: flex;
+	justify-content: center;
+}
+
+.color-column {
+	flex: 1;
+	max-width: 15rem;
+	margin: 0 1rem;
+}
+
+.color-group {
+	display: flex;
+	align-items: center;
+	margin-bottom: 20px;
+}
+
+.color-box {
+	width: 50px;
+	height: 50px;
+	margin-right: 20px;
+}
+
+.color-info {
+	text-align: left;
+}
+
+.color-info h3 {
+	margin: 0;
+}
+
+.color-info p {
+	margin: 5px 0;
 }
